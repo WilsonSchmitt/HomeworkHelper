@@ -12,21 +12,25 @@
 		5EB2791120D848C70013F67B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB2790F20D848C70013F67B /* Main.storyboard */; };
 		5EB2791320D848CA0013F67B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB2791220D848CA0013F67B /* Assets.xcassets */; };
 		5EB2791620D848CA0013F67B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB2791420D848CA0013F67B /* LaunchScreen.storyboard */; };
-		5EB2791E20D849E80013F67B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EB2791D20D849E80013F67B /* GoogleService-Info.plist */; };
-		999B8178AF533E31AE07763E /* Pods_HomeworkHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CE72C66664D81793962B3F /* Pods_HomeworkHelper.framework */; };
+		5EB2791E20D849E80013F67B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EB2791D20D849E80013F67B /* Info.plist */; };
+		5EB2792020D88A9C0013F67B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB2791F20D88A9C0013F67B /* LoginViewController.swift */; };
+		5EB2792220D88AA80013F67B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB2792120D88AA80013F67B /* SignUpViewController.swift */; };
+		67177CA1C3126834B5363F51 /* Pods_HomeworkHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780589019093B3BB646582E2 /* Pods_HomeworkHelper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A6B1C0D278939301F7756A5 /* Pods-HomeworkHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeworkHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeworkHelper/Pods-HomeworkHelper.release.xcconfig"; sourceTree = "<group>"; };
 		5EB2790820D848C70013F67B /* HomeworkHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeworkHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB2790B20D848C70013F67B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EB2790D20D848C70013F67B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5EB2791020D848C70013F67B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EB2791220D848CA0013F67B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EB2791520D848CA0013F67B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5EB2791D20D849E80013F67B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		C2CE72C66664D81793962B3F /* Pods_HomeworkHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeworkHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD755477EBEC529B1B3C0B4B /* Pods-HomeworkHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeworkHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeworkHelper/Pods-HomeworkHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		5EB2791D20D849E80013F67B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB2791F20D88A9C0013F67B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5EB2792120D88AA80013F67B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		780589019093B3BB646582E2 /* Pods_HomeworkHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeworkHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD0C35BB2478871793A7EBE /* Pods-HomeworkHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeworkHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeworkHelper/Pods-HomeworkHelper.release.xcconfig"; sourceTree = "<group>"; };
+		D3D1DDFFC6ECAD471DD3FC91 /* Pods-HomeworkHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeworkHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeworkHelper/Pods-HomeworkHelper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,17 +38,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				999B8178AF533E31AE07763E /* Pods_HomeworkHelper.framework in Frameworks */,
+				67177CA1C3126834B5363F51 /* Pods_HomeworkHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4BFD2809D0008ADF5E7C32C7 /* Frameworks */ = {
+		49484B4C65B08418C1E34D1E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C2CE72C66664D81793962B3F /* Pods_HomeworkHelper.framework */,
+				780589019093B3BB646582E2 /* Pods_HomeworkHelper.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -54,8 +58,8 @@
 			children = (
 				5EB2790A20D848C70013F67B /* HomeworkHelper */,
 				5EB2790920D848C70013F67B /* Products */,
-				8D900D18F9FFC68C09AAF734 /* Pods */,
-				4BFD2809D0008ADF5E7C32C7 /* Frameworks */,
+				6B5EC2DFF2030E3A9D64FE0B /* Pods */,
+				49484B4C65B08418C1E34D1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,18 +77,20 @@
 				5EB2790B20D848C70013F67B /* AppDelegate.swift */,
 				5EB2790D20D848C70013F67B /* ViewController.swift */,
 				5EB2790F20D848C70013F67B /* Main.storyboard */,
+				5EB2791F20D88A9C0013F67B /* LoginViewController.swift */,
+				5EB2792120D88AA80013F67B /* SignUpViewController.swift */,
 				5EB2791220D848CA0013F67B /* Assets.xcassets */,
 				5EB2791420D848CA0013F67B /* LaunchScreen.storyboard */,
-				5EB2791D20D849E80013F67B /* GoogleService-Info.plist */,
+				5EB2791D20D849E80013F67B /* Info.plist */,
 			);
 			path = HomeworkHelper;
 			sourceTree = "<group>";
 		};
-		8D900D18F9FFC68C09AAF734 /* Pods */ = {
+		6B5EC2DFF2030E3A9D64FE0B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CD755477EBEC529B1B3C0B4B /* Pods-HomeworkHelper.debug.xcconfig */,
-				0A6B1C0D278939301F7756A5 /* Pods-HomeworkHelper.release.xcconfig */,
+				D3D1DDFFC6ECAD471DD3FC91 /* Pods-HomeworkHelper.debug.xcconfig */,
+				ABD0C35BB2478871793A7EBE /* Pods-HomeworkHelper.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -96,11 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EB2791A20D848CA0013F67B /* Build configuration list for PBXNativeTarget "HomeworkHelper" */;
 			buildPhases = (
-				6C2E892CE6819B36CE1AE8C0 /* [CP] Check Pods Manifest.lock */,
+				414F36392DF5161969F10E9B /* [CP] Check Pods Manifest.lock */,
 				5EB2790420D848C70013F67B /* Sources */,
 				5EB2790520D848C70013F67B /* Frameworks */,
 				5EB2790620D848C70013F67B /* Resources */,
-				DC7896F71E0856B8BA119889 /* [CP] Embed Pods Frameworks */,
+				30AE5B95C4F56391E2BFE625 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,7 +157,7 @@
 			files = (
 				5EB2791620D848CA0013F67B /* LaunchScreen.storyboard in Resources */,
 				5EB2791320D848CA0013F67B /* Assets.xcassets in Resources */,
-				5EB2791E20D849E80013F67B /* GoogleService-Info.plist in Resources */,
+				5EB2791E20D849E80013F67B /* Info.plist in Resources */,
 				5EB2791120D848C70013F67B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,25 +165,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6C2E892CE6819B36CE1AE8C0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HomeworkHelper-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DC7896F71E0856B8BA119889 /* [CP] Embed Pods Frameworks */ = {
+		30AE5B95C4F56391E2BFE625 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -199,6 +187,24 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomeworkHelper/Pods-HomeworkHelper-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		414F36392DF5161969F10E9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeworkHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -206,7 +212,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB2792020D88A9C0013F67B /* LoginViewController.swift in Sources */,
 				5EB2790E20D848C70013F67B /* ViewController.swift in Sources */,
+				5EB2792220D88AA80013F67B /* SignUpViewController.swift in Sources */,
 				5EB2790C20D848C70013F67B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,7 +357,7 @@
 		};
 		5EB2791B20D848CA0013F67B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD755477EBEC529B1B3C0B4B /* Pods-HomeworkHelper.debug.xcconfig */;
+			baseConfigurationReference = D3D1DDFFC6ECAD471DD3FC91 /* Pods-HomeworkHelper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -368,7 +376,7 @@
 		};
 		5EB2791C20D848CA0013F67B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A6B1C0D278939301F7756A5 /* Pods-HomeworkHelper.release.xcconfig */;
+			baseConfigurationReference = ABD0C35BB2478871793A7EBE /* Pods-HomeworkHelper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

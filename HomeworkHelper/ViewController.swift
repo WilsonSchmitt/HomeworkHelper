@@ -7,9 +7,15 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
 
 class ViewController: UIViewController {
 
+    @IBAction func goToLogin(_ sender: UIButton) {
+        let loginPage = self.storyboard?.instantiateViewController(withIdentifier: "loginPage")as?LoginViewController
+        self.present(loginPage!, animated: false)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
